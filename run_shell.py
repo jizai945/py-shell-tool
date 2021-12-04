@@ -135,7 +135,7 @@ def execute_char(command, timeout, cwd=''):
 
 if __name__ == '__main__':
     # command = 'ping www.baidu.com'
-    command = 'python process.py'
+    command = 'python progress_bar.py'
 
     f = execute_char(command, 0)
 
